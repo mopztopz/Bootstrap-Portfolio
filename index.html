@@ -7,11 +7,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .conbg {
+            background-image: url(assets/images/connectwork.png);
+            height: 100vh;
+            width: 100%;
+            /* background: beige; */
+        }
+
+        #BWpic {
+            width: 240px;
+            height: 240px;
+            margin-left: 15px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            color: white;
+            border-top: 5px solid teal;
+            text-align: center;
+            background-color: #666666;
+            padding-top: 20px;
+        }
+    </style>
     <title>Document</title>
 </head>
 
-<body>
+<body class="">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Stephen Brown</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
@@ -26,15 +53,46 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>About Me</h1>
-                <hr>
+    <div class="content-wrapper conbg">
+        <div class="container">
+            <div class="content-area" style="background: white;">
+                <div class="row">
+                    <div class="col">
+                        <h1>About Me</h1>
+                        <hr>
+                        <div class="row">
+                            <div class="col-3">
+                                <img id="BWpic" src="assets/Images/15152315.jpg" alt="B&W Picture Of Me ">
+                            </div>
+                            <div class="col-9">
+                                <p>Hello, My name is Stephen Anthony Brown. I am 35 years old and the father of the most
+                                    rambunctious 6-year-old in the world. I have a background in IT (Desktop Support mostly
+                                    with a little Server Administration) and 3 years of culinary arts training as a sous
+                                    chef. I enjoy Gaming (PC master race), Biking and learning.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tincidunt augue.
+                                    Nam convallis velit diam, a finibus erat placerat vitae. Maecenas faucibus mi volutpat,
+                                    vulputate massa et, congue massa. Duis pharetra erat ligula, ac blandit mi ullamcorper
+                                    ut. Aenean efficitur interdum leo id finibus. Praesent neque risus, tincidunt sed sem
+                                    hendrerit, iaculis interdum magna. Maecenas volutpat egestas arcu at elementum. Pellentesque
+                                    blandit a ante non lobortis.
+                                </p>
+                                <p>Proin enim mauris, gravida semper molestie ac, iaculis vitae mauris. Pellentesque vitae
+                                    luctus erat. Praesent vulputate id libero non consequat. Sed hendrerit odio eget dictum
+                                    dignissim. Fusce eleifend rhoncus risus. Pellentesque rutrum, massa eu dapibus posuere,
+                                    leo nibh ullamcorper risus, in mollis tellus libero vitae ante.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </divcontent-area>
             </div>
         </div>
-    </div>
-
+        <footer class="footer">
+            <div class="container">
+                <p class="footer-block">Place sticky footer content here.</p>
+            </div>
+        </footer>
 </body>
 
 </html>
