@@ -1,8 +1,44 @@
 #BWP{
-    width: 100%;
-    height: 100%;    
+    width: 200;
+    height: 200%;
+    float: right;    
 }
 
 .BGI{
-    background-image: url(../assets/Images/oriental.png)
+    background-image: url(../assets/Images/oriental.png);
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.CW{
+    background:white;
+    border: solid 1px #aaa;
+    padding: 30px 10px; 
+    
+}
+
+footer{
+    background: grey !important;
+    border-top: solid #4aaaa5 5px !important;
+    text-align: center;
+    color: white;
+}
+
+.navbar-brand{
+    background: #4aaaa5;
+    border: 10px solid #4aaaa5;
+    color: white !important ;    
+}
+
+.navbar{
+    padding: 0px;
+    border-bottom: solid 1px #aaa; 
+
+}
+h2{
+    color: #4aaaa5
+}
+
+.nav-con{
+    padding-left: 0px;
 }
