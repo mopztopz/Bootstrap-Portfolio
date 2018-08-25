@@ -1,45 +1,45 @@
-
-.BGI{
+.BGI {
     background-image: url(../assets/Images/oriental.png);
     height: 100vh;
     padding-top: 20px;
 }
 
-body{
+body {
     background-image: url(../assets/Images/oriental.png);
 }
-.CW{
-    background:white;
+
+.CW {
+    background: white;
     border: solid 1px #aaa;
-    padding: 30px 10px; 
-    
+    padding: 30px 10px;
 }
 
-footer{
+footer {
     background: grey !important;
     border-top: solid #4aaaa5 5px !important;
     text-align: center;
     color: white;
 }
 
-.navbar-brand{
+.navbar-brand {
     background: #4aaaa5;
     border: 10px solid #4aaaa5;
-    color: white !important ;    
+    color: white !important;
 }
 
-.navbar{
+.navbar {
     padding: 0px;
-    border-bottom: solid 1px #aaa; 
-
+    border-bottom: solid 1px #aaa;
 }
-h2{
+
+h2 {
     color: #4aaaa5
 }
 
-.nav-con{
+.nav-con {
     padding-left: 0px;
 }
+
 .bottom-center {
     top: 160px;
     background-color: teal;
@@ -48,11 +48,10 @@ h2{
     padding: 20px 0;
 }
 
-.banner1{
-    bottom: 30px !important ;
+.banner1 {
+    bottom: 30px !important;
 }
 
-#BWP{
+#BWP {
     margin-bottom: 8px;
 }
-
