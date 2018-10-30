@@ -1,11 +1,13 @@
 .BGI {
-    background-image: url(../assets/Images/oriental.png);
+    /* background-image: url(../assets/Images/folk-pattern.png); */
     height: 100vh;
     padding-top: 20px;
+    /* background: #FFD789; */
 }
 
 body {
-    background-image: url(../assets/Images/oriental.png);
+    /* background-image: url(../assets/Images/folk-pattern.png); */
+    /* background: #845007; */
 }
 
 .CW {
@@ -22,8 +24,8 @@ footer {
 }
 
 .navbar-brand {
-    background: #4aaaa5;
-    border: 10px solid #4aaaa5;
+    background: #3a4660;
+    
     color: white !important;
 }
 
@@ -54,4 +56,12 @@ h2 {
 
 #BWP {
     margin-bottom: 8px;
+}
+
+img{
+    border: solid 1.5px black;
+}
+
+.project_text{
+    /* background: #aaa; */
 }
