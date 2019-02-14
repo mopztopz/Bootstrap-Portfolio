@@ -2,7 +2,7 @@
     /* background-image: url(../assets/Images/folk-pattern.png); */
     height: 100vh;
     padding-top: 20px;
-    /* background: #FFD789; */
+    /* background: #f6efc2; */
 }
 
 body {
@@ -17,16 +17,18 @@ body {
 }
 
 footer {
-    background: grey !important;
-    border-top: solid #4aaaa5 5px !important;
+    background:#fff !important;
+    height: 40px;
+    border-top: solid #3a4660 5px !important;
     text-align: center;
     color: white;
+    font-size: 30px;
 }
 
 .navbar-brand {
-    background: #3a4660;
+    /* background: #3a4660; */
     
-    color: white !important;
+    color:#3a4660 !important;
 }
 
 .navbar {
@@ -35,7 +37,7 @@ footer {
 }
 
 h2 {
-    color: #4aaaa5
+    color: #3a4660
 }
 
 .nav-con {
@@ -44,7 +46,7 @@ h2 {
 
 .bottom-center {
     top: 160px;
-    background-color: teal;
+    background-color:#3a4660;
     color: white;
     width: 100%;
     padding: 20px 0;
@@ -56,6 +58,10 @@ h2 {
 
 #BWP {
     margin-bottom: 8px;
+}
+
+.sm_outline{
+    border: solid 1.5px black;
 }
 
 img{
